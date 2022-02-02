@@ -13,10 +13,65 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="OpenGL Stuff">
+      <UniqueIdentifier>{ef927014-a56b-480c-9cdb-2b3e65258e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{72843bc1-1479-4c8e-bfcd-f15c7e07fcc9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="opengl_boilerplate\IndexArray.cpp">
+      <Filter>OpenGL Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl_boilerplate\VertexArray.cpp">
+      <Filter>OpenGL Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl_boilerplate\VertexBuffer.cpp">
+      <Filter>OpenGL Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="TheTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="opengl_boilerplate\VertexBuffer.h">
+      <Filter>OpenGL Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl_boilerplate\VertexBufferLayout.h">
+      <Filter>OpenGL Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl_boilerplate\VertexStruct.h">
+      <Filter>OpenGL Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl_boilerplate\GLCall.h">
+      <Filter>OpenGL Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl_boilerplate\IndexArray.h">
+      <Filter>OpenGL Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl_boilerplate\Maths.h">
+      <Filter>OpenGL Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl_boilerplate\VertexArray.h">
+      <Filter>OpenGL Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TheTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Shaders\test_vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\test_fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>
